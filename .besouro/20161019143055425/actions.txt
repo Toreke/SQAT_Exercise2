@@ -105,3 +105,11 @@ EditAction 1476882689835 PlanetExplorer.java 2043 3 11 0
 RefactoringAction 1476882816148 PlanetExplorer.java RENAME changeDirection(char)=>char changeDirection(char, char) METHOD
 EditAction 1476882817490 PlanetExplorer.java 2072 3 11 0
 EditAction 1476883651548 PlanetExplorer.java 3106 3 15 0
+UnitTestCaseAction 1476883661457 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476883661457 TestPlanetExplorer.test_executeCommandffrf OK
+UnitTestCaseAction 1476883664970 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476883664970 TestPlanetExplorer.test_executeCommandout_of_planet OK
+UnitTestCaseAction 1476883667703 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883667703 TestPlanetExplorer.test_executeCommandffrfffb FAIL
+UnitTestCaseAction 1476883670967 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476883670967 TestPlanetExplorer.test_executeCommandffrf OK
