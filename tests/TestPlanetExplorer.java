@@ -13,7 +13,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeCommandout_of_planet() {
 		PlanetExplorer PE = new PlanetExplorer(3,3, "");
-		assertEquals("(0,3,N)", PE.executeCommand("b"));
+		assertEquals("(0,2,N)", PE.executeCommand("b"));
 	}
 	
 	@Test
