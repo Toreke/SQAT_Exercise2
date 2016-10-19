@@ -9,8 +9,8 @@ public class PlanetExplorer {
 	int gridY;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
-		gridX = x - 1;
-		gridY = y - 1;
+		gridX = x;
+		gridY = y;
 		obstacle = obstacles;
 		
 	/*	x and y represent the size of the grid.
@@ -60,7 +60,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String position = "(" + Integer.toString(posX) + "," + Integer.toString(posY) + "," + direction + ")";
+		String position = "(" + Integer.toString(posX - 1) + "," + Integer.toString(posY - 1) + "," + direction + ")";
 		
 		return position;
 	}
