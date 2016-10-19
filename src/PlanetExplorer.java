@@ -60,7 +60,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String position = "(" + Integer.toString(posX - 1) + "," + Integer.toString(posY - 1) + "," + direction + ")";
+		String position = "(" + Integer.toString(posX) + "," + Integer.toString(posY) + "," + direction + ")";
 		
 		return position;
 	}
