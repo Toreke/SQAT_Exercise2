@@ -95,3 +95,6 @@ UnitTestSessionAction 1476881983849 TestPlanetExplorer.test_executeCommandout_of
 UnitTestCaseAction 1476881987003 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476881987003 TestPlanetExplorer.test_executeCommandffrfffb FAIL
 EditAction 1476882025644 TestPlanetExplorer.java 587 3 6 3
+UnitTestCaseAction 1476882028892 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882028892 TestPlanetExplorer.java FAIL
+EditAction 1476882041684 TestPlanetExplorer.java 587 3 6 3
