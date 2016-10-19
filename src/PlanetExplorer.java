@@ -47,6 +47,12 @@ public class PlanetExplorer {
 			}else{
 				direction = command.charAt(i);
 				i++;
+				if(direction == 'r'){
+					direction = 'E';
+				}else{
+					direction = 'S';
+				}
+				
 			}
 		}
 			
