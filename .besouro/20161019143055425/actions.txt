@@ -99,3 +99,6 @@ UnitTestCaseAction 1476882028892 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476882028892 TestPlanetExplorer.java FAIL
 EditAction 1476882041684 TestPlanetExplorer.java 587 3 6 3
 EditAction 1476882179198 PlanetExplorer.java 2045 2 10 0
+RefactoringAction 1476882535597 PlanetExplorer.java ADD char changeDirection() METHOD
+RefactoringAction 1476882561291 PlanetExplorer.java RENAME changeDirection()=>char changeDirection(char) METHOD
+EditAction 1476882689835 PlanetExplorer.java 2043 3 11 0

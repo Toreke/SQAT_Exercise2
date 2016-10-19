@@ -47,14 +47,8 @@ public class PlanetExplorer {
 				}
 				i++;
 			}else{
-				direction = command.charAt(i);
+				direction = changeDirection(command.charAt(i));
 				i++;
-				if(direction == 'r'){
-					direction = 'E';
-				}else{
-					direction = 'S';
-				}
-				
 			}
 		}
 			
@@ -71,6 +65,13 @@ public class PlanetExplorer {
 		String position = "(" + Integer.toString(posX) + "," + Integer.toString(posY) + "," + direction + ")";
 		
 		return position;
+	}
+
+	private char changeDirection(char direction) {
+		
+		
+		
+		return 0;
 	}
 	
 }
