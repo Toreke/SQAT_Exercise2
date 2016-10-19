@@ -7,3 +7,16 @@ RefactoringAction 1476878190484 PlanetExplorer.java ADD String obstacle FIELD
 RefactoringAction 1476878221388 PlanetExplorer.java REMOVE obstacle FIELD
 RefactoringAction 1476878234273 PlanetExplorer.java ADD String obstacle FIELD
 EditAction 1476878706674 PlanetExplorer.java 1555 2 9 0
+RefactoringAction 1476878987194 PlanetExplorer.java ADD int gridX FIELD
+RefactoringAction 1476878994417 PlanetExplorer.java RENAME gridX=>int gridY FIELD
+RefactoringAction 1476879012450 PlanetExplorer.java ADD int gri FIELD
+RefactoringAction 1476879014010 PlanetExplorer.java RENAME gri=>int grid FIELD
+RefactoringAction 1476879015056 PlanetExplorer.java RENAME grid=>int gridY/2 FIELD
+RefactoringAction 1476879017130 PlanetExplorer.java RENAME gridY/2=>int gridX FIELD
+CompilationAction 1476879140059 PlanetExplorer.java
+CompilationAction 1476879668728 PlanetExplorer.java
+CompilationAction 1476879668884 PlanetExplorer.java
+CompilationAction 1476879668884 PlanetExplorer.java
+CompilationAction 1476879828068 PlanetExplorer.java
+CompilationAction 1476879828068 PlanetExplorer.java
+EditAction 1476879862263 PlanetExplorer.java 1777 2 10 0

@@ -5,9 +5,12 @@
 
 public class PlanetExplorer {
 	private String obstacle = null;
+	int gridX;
+	int gridY;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
-		int gridX = x;
-		int gridY = y;
+		gridX = x;
+		gridY = y;
 		obstacle = obstacles;
 		
 	/*	x and y represent the size of the grid.
@@ -23,16 +26,29 @@ public class PlanetExplorer {
 		
 		int posX = 0;
 		int posY = 0;
+		char direction = 'N';
 		int i = 0;
 		int n = 0;
 		
 		while(i < command.length()){
 			if(command.charAt(n) == 'f'){
 				posY++;
+				if(posX > gridX){
+					posX = 0;
+				}
+				n++;
 			}else if (command.charAt(n) == 'b'){
-				
+				posY= posY - 1;
+					if(posY < 0){
+						posY = gridY;
+					}
+				n++;
+			}else{
+				direction = command.charAt(n);
+				n++;
 			}
 		}
+			
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
