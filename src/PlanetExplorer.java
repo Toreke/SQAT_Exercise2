@@ -31,15 +31,17 @@ public class PlanetExplorer {
 		
 		while(i < command.length()){
 			if(command.charAt(i) == 'f'){
-				posY++;
-				if(posX > gridX){
-					posX = 0;
+				if(direction == 'N'){
+					posY++;
+						if(posY > gridY){
+							posY = 0;
+						}
 				}
 				i++;
 			}else if (command.charAt(i) == 'b'){
 				posY= posY - 1;
 					if(posY < 0){
-						posY = gridY;
+						posY = gridY - 1;
 					}
 				i++;
 			}else{
@@ -62,4 +64,7 @@ public class PlanetExplorer {
 		
 		return position;
 	}
+	
+	public int get
+	
 }

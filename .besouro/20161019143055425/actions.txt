@@ -54,3 +54,4 @@ RefactoringAction 1476881230091 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476881234210 TestPlanetExplorer.java RENAME planet()=>void of_planet() METHOD
 RefactoringAction 1476881236269 TestPlanetExplorer.java RENAME test_executeCommandoutof_planet()=>void test_executeCommandout_of_planet() METHOD
 EditAction 1476881271463 TestPlanetExplorer.java 587 3 6 3
+EditAction 1476881280011 PlanetExplorer.java 1939 2 10 0
