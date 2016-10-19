@@ -102,3 +102,5 @@ EditAction 1476882179198 PlanetExplorer.java 2045 2 10 0
 RefactoringAction 1476882535597 PlanetExplorer.java ADD char changeDirection() METHOD
 RefactoringAction 1476882561291 PlanetExplorer.java RENAME changeDirection()=>char changeDirection(char) METHOD
 EditAction 1476882689835 PlanetExplorer.java 2043 3 11 0
+RefactoringAction 1476882816148 PlanetExplorer.java RENAME changeDirection(char)=>char changeDirection(char, char) METHOD
+EditAction 1476882817490 PlanetExplorer.java 2072 3 11 0

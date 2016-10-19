@@ -47,7 +47,7 @@ public class PlanetExplorer {
 				}
 				i++;
 			}else{
-				direction = changeDirection(command.charAt(i));
+				direction = changeDirection(command.charAt(i), direction);
 				i++;
 			}
 		}
@@ -67,7 +67,7 @@ public class PlanetExplorer {
 		return position;
 	}
 
-	private char changeDirection(char direction) {
+	private char changeDirection(char leftOrRight, char direction) {
 		
 		
 		
