@@ -58,7 +58,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String position = "(" + Integer.toString(posX) + "," + Integer.toString(posX) + direction + ")";
+		String position = "(" + Integer.toString(posX) + "," + Integer.toString(posX) + "," + direction + ")";
 		
 		return position;
 	}
