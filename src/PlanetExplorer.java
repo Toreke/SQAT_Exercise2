@@ -28,24 +28,23 @@ public class PlanetExplorer {
 		int posY = 0;
 		char direction = 'N';
 		int i = 0;
-		int n = 0;
 		
 		while(i < command.length()){
-			if(command.charAt(n) == 'f'){
+			if(command.charAt(i) == 'f'){
 				posY++;
 				if(posX > gridX){
 					posX = 0;
 				}
-				n++;
-			}else if (command.charAt(n) == 'b'){
+				i++;
+			}else if (command.charAt(i) == 'b'){
 				posY= posY - 1;
 					if(posY < 0){
 						posY = gridY;
 					}
-				n++;
+				i++;
 			}else{
-				direction = command.charAt(n);
-				n++;
+				direction = command.charAt(i);
+				i++;
 			}
 		}
 			
