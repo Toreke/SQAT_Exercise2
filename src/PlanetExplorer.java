@@ -68,8 +68,55 @@ public class PlanetExplorer {
 	}
 
 	private char changeDirection(char leftOrRight, char direction) {
+		int directionnumber = 0;
 		
+		if(direction == 'N'){
+			directionnumber = 1;
+		}else if(direction == 'E'){
+			directionnumber = 2;
+		}else if(direction == 'S'){
+			directionnumber = 3;
+		}else if(direction == 'W'){
+			directionnumber = 4;
+		}
 		
+		switch(directionnumber){
+			case 1:
+				if(leftOrRight == 'r'){
+					directionnumber = directionnumber + 1;
+				}else{
+					directionnumber = 4;
+				}
+			case 2:
+				if(leftOrRight == 'r'){
+					directionnumber = directionnumber + 1;
+				}else{
+					directionnumber = directionnumber - 1;
+				}
+			case 3:
+				if(leftOrRight == 'r'){
+					directionnumber = directionnumber + 1;
+				}else{
+					directionnumber = directionnumber - 1;
+				}
+			case 4:
+				if(leftOrRight == 'r'){
+					directionnumber = 1;
+				}else{
+					directionnumber = directionnumber - 1;
+				}
+				
+		}
+		
+		if(directionnumber == 1){
+			direction = 'N';
+		}else if(directionnumber == 2){
+			direction = 'E';
+		}else if(directionnumber == 3){
+			direction = 'S';
+		}else if(directionnumber == 4){
+			direction = 'W';
+		}
 		
 		return 0;
 	}
