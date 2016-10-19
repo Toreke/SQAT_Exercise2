@@ -2,3 +2,5 @@
 1476881310422 test-first 4 694 true
 1476881545457 refactoring 2A 227 false
 1476881548658 regression 1 0 true
+1476881980507 refactoring 2A 428 true
+1476881983849 regression 1 0 false

@@ -88,3 +88,10 @@ EditAction 1476881742616 PlanetExplorer.java 2013 2 10 0
 UnitTestCaseAction 1476881750248 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476881750263 TestPlanetExplorer.test_executeCommandffrfffb FAIL
 EditAction 1476881974451 PlanetExplorer.java 2045 2 10 0
+UnitTestCaseAction 1476881980507 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476881980507 TestPlanetExplorer.test_executeCommandffrf OK
+UnitTestCaseAction 1476881983849 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476881983849 TestPlanetExplorer.test_executeCommandout_of_planet OK
+UnitTestCaseAction 1476881987003 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881987003 TestPlanetExplorer.test_executeCommandffrfffb FAIL
+EditAction 1476882025644 TestPlanetExplorer.java 587 3 6 3
