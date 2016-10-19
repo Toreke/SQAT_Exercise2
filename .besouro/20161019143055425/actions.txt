@@ -3,3 +3,7 @@ RefactoringAction 1476877947716 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476877949276 TestPlanetExplorer.java RENAME test_executeCommandff()=>void test_executeCommandffrf() METHOD
 EditAction 1476877968511 TestPlanetExplorer.java 252 1 2 1
 EditAction 1476877973519 PlanetExplorer.java 1279 2 1 0
+RefactoringAction 1476878190484 PlanetExplorer.java ADD String obstacle FIELD
+RefactoringAction 1476878221388 PlanetExplorer.java REMOVE obstacle FIELD
+RefactoringAction 1476878234273 PlanetExplorer.java ADD String obstacle FIELD
+EditAction 1476878706674 PlanetExplorer.java 1555 2 9 0

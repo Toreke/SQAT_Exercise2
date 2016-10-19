@@ -4,9 +4,11 @@
 // Finish time:
 
 public class PlanetExplorer {
+	private String obstacle = null;
 	public PlanetExplorer(int x, int y, String obstacles){
-		
-		
+		int gridX = x;
+		int gridY = y;
+		obstacle = obstacles;
 		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -19,6 +21,18 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
+		int posX = 0;
+		int posY = 0;
+		int i = 0;
+		int n = 0;
+		
+		while(i < command.length()){
+			if(command.charAt(n) == 'f'){
+				posY++;
+			}else if (command.charAt(n) == 'b'){
+				
+			}
+		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
