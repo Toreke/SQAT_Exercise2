@@ -9,8 +9,8 @@ public class PlanetExplorer {
 	int gridY;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
-		gridX = x;
-		gridY = y;
+		gridX = x - 1;
+		gridY = y - 1;
 		obstacle = obstacles;
 		
 	/*	x and y represent the size of the grid.
@@ -64,7 +64,5 @@ public class PlanetExplorer {
 		
 		return position;
 	}
-	
-	public int get
 	
 }
