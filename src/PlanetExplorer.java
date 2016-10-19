@@ -39,10 +39,12 @@ public class PlanetExplorer {
 				}
 				i++;
 			}else if (command.charAt(i) == 'b'){
+				if(direction == 'N'){
 				posY= posY - 1;
 					if(posY < 0){
 						posY = gridY - 1;
 					}
+				}
 				i++;
 			}else{
 				direction = command.charAt(i);
